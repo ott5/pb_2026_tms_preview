@@ -66,7 +66,7 @@ class CountryRegionSeeder extends Seeder
                 }
             }
         }
-        $this->call(CitySeeder::class);
-        $this->call(AdministrativeDivisionSeeder::class);
+        //$this->call(CitySeeder::class);
+        //$this->call(AdministrativeDivisionSeeder::class);
     }
 }
