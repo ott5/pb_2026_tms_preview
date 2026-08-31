@@ -68,26 +68,27 @@ In the **[`old/`](./old/)** folder and the root directory, you can find an older
 
 ### 6. 🖼️ Screenshots of the Address Module and Employee Link
 
-These screenshots show key views of linking an address to a driver using a pivot table in the admin panel.
+The screenshots below show the key views of linking an address to an employee (e.g., a driver) using a pivot table in the admin panel.
 
 #### I. EmployeeAddress Table View
-* **Description:** A pivot table showing the link between an address and an employee. You can choose a predefined address type.
+* **Description:** A pivot table showing the link between an address and an employee. You can choose a predefined address type. The screenshot shows an empty table.
 * 🔗 **[View screenshot: img/employee_address_pivot_table.png](./img/employee_address_pivot_table.png)**
 
 #### II. Adding a Record
-* **IIa. Adding to a driver:** Choosing a driver from a dropdown list inside the address form.
+* **IIa. Adding to a driver:** Selecting a driver from a dropdown list inside the address form. Driver data was generated using a factory.
   * 🔗 **[View screenshot: img/employee_address_select_driver.png](./img/employee_address_select_driver.png)**
 * **IIb. Adding address data:** Entering basic address details (street, building number, etc.).
   * 🔗 **[View screenshot: img/employee_address_form_fields.png](./img/employee_address_form_fields.png)**
-* **IIc. Cascading fields:** Showing how fields work together (e.g., choosing a country automatically filters regions, cities, and postal codes).
-  * 🔗 **[View screenshot: img/employee_address_cascade.png](./img/employee_address_cascade.png)**
+* **IIc. Showing field cascading in the form:** Presenting cascading field dependencies (e.g., selecting a country automatically filters available regions/provinces, cities, and postal codes). The screenshots below show this using the example of a region (Pomeranian / Kuyavian-Pomeranian).
+  * 🔗 **[View screenshot: img/employee_address_cascade1C.png](./img/employee_address_cascade1.png)**
+  * 🔗 **[View screenshot: img/employee_address_cascade2.png](./img/employee_address_cascade2.png)**
 
 #### III. Result After Adding
-* **Description:** List or detail view after saving the record in the database, showing the address is correctly assigned to the driver.
+* **Description:** List or detail view after successfully saving the record in the database, confirming the correct assignment of the address to the driver.
 * 🔗 **[View screenshot: img/employee_address_result.png](./img/employee_address_result.png)**
 
 #### IV. Table Filter
-* **Description:** Using advanced filters in the Filament table (e.g., filtering addresses by `AddressType` or country).
+* **Description:** Using advanced filters in the Filament table (e.g., filtering addresses by `AddressType`, selected country, region, etc.). The screenshot shows an example of the table after filtering by the city "Tuchola". The state before is shown in point `III`.
 * 🔗 **[View screenshot: img/employee_address_filters.png](./img/employee_address_filters.png)**
 
 ### 7. 🔌 How to Run It in Your Own Project
@@ -117,7 +118,13 @@ Because this repository gives you the source code (`code_preview`), running the 
        ]);
    }
 
-## 8. 🎯 Address Module Goals (Roadmap)
+### 8. 🛠️ Known Issues and Technical Notes
+
+* **1. Search errors for some items:** In this preview version, searching for certain elements may sometimes cause errors with specific queries. This will be fixed in future updates.
+* **2. No custom error handling (Intentional for now):** The system doesn't have custom user error messages yet. Laravel and Filament default error screens were kept on purpose during testing and preview so we can instantly see the exact error location and debug issues easily.
+* **3. No limits on municipalities and districts for cities (Intentional design):** Hard limits were left out on purpose because some large cities (like metropolitan areas) can cover multiple municipalities or administrative districts.
+
+### 9. 🎯 Address Module Goals (Roadmap)
 
 The main development goals for the address module are:
 
@@ -213,23 +220,24 @@ W katalogu **[`old/`](./old/)** oraz w głównym katalogu znajduje się starsza 
 Poniższe zrzuty ekranu przedstawiają kluczowe widoki powiązania adresu z pracownikiem (np. kierowcą) za pomocą tabeli łącznikowej w panelu administracyjnym.
 
 #### I. Widok tabeli EmployeeAddress
-* **Opis:** Tabela łącznikowa prezentująca powiązanie adresu z pracownikiem Mamy możliwość wybrania predefiniowanego typu adresu.
+* **Opis:** Tabela łącznikowa prezentująca powiązanie adresu z pracownikiem Mamy możliwość wybrania predefiniowanego typu adresu. Screeenshot przedstawia pusta tabele.
 * 🔗 **[Zobacz screenshot: img/employee_address_pivot_table.png](./img/employee_address_pivot_table.png)**
 
 #### II. Dodawanie rekordu
-* **IIa. Dodawanie do kierowcy:** Wybór kierowcy z listy rozwijanej w kontekście formularza adresu.
+* **IIa. Dodawanie do kierowcy:** Wybór kierowcy z rozwijanej tablicy w formularzu adresu. Dane kierowców są wygenerowane za pomocą fabryki
   * 🔗 **[Zobacz screenshot: img/employee_address_select_driver.png](./img/employee_address_select_driver.png)**
 * **IIb. Dodawanie adresu:** Wprowadzanie podstawowych danych adresowych (ulica, numer budynku itp.).
   * 🔗 **[Zobacz screenshot: img/employee_address_form_fields.png](./img/employee_address_form_fields.png)**
-* **IIc. Pokazanie kaskadowości w formularzu:** Prezentacja kaskadowego powiązania pól (np. wybór kraju automatycznie filtruje dostępne regiony/województwa oraz miasta i kody pocztowe).
-  * 🔗 **[Zobacz screenshot: img/employee_address_cascade.png](./img/employee_address_cascade.png)**
+* **IIc. Pokazanie kaskadowości w formularzu:** Prezentacja kaskadowego powiązania pól (np. wybór kraju automatycznie filtruje dostępne regiony/województwa oraz miasta i kody pocztowe) Poniższe screenshoty pokazują to na przykładzie województwa (pomorskie/kujawsko pomorskie).
+  * 🔗 **[Zobacz screenshot: img/employee_address_cascade1C.png](./img/employee_address_cascade1.png)**
+  * 🔗 **[Zobacz screenshot: img/employee_address_cascade2.png](./img/employee_address_cascade2.png)**
 
 #### III. Wynik po dodaniu
 * **Opis:** Widok listy lub podglądu po pomyślnym zapisaniu rekordu w bazie danych, potwierdzający poprawne przypisanie adresu do kierowcy.
 * 🔗 **[Zobacz screenshot: img/employee_address_result.png](./img/employee_address_result.png)**
 
 #### IV. Pokaz filtra
-* **Opis:** Działanie zaawansowanych filtrów w tabeli Filament (np. filtrowanie adresów po typie adresu `AddressType` lub wybranym kraju).
+* **Opis:** Działanie zaawansowanych filtrów w tabeli Filament (np. filtrowanie adresów po typie adresu `AddressType` lub wybranym kraju, województwie itp.) Na screenie przykład tabeli po zastosowaniu filtra po mieście `Tuchola`. Stan przed w punkcie `III`.
 * 🔗 **[Zobacz screenshot: img/employee_address_filters.png](./img/employee_address_filters.png)**
 
 ### 7. 🔌 Wdrożenie i uruchomienie we własnym projekcie
@@ -259,7 +267,13 @@ Ponieważ to repozytorium prezentuje gotowy wycinek kodu źródłowego (`code_pr
        ]);
    }
 
-### 8. 🎯 Cele i założenia modułu adresowego (Roadmapa modułu)
+### 8. 🛠️ Błedy i uwagi techniczne
+
+* **1. Błędy wyszukiwania niektórych elementów:** W obecnej wersji podglądu wyszukiwanie w wybranych polach może sporadycznie generować wyjątki przy specyficznych zapytaniach. Zostanie to poprawione w kolejnych wersjach.
+* **2. Brak pełnej obsługi wyjątków (Celowe w aktualnej wersji):** System nie posiada jeszcze dedykowanej obsługi błędów użytkownika, celowo pozostawiono domyślne komunikaty wyjątków Laravela oraz Filamenta, aby w fazie testów i podglądu kodu natychmiast widzieć dokładne miejsce błędu i precyzyjnie diagnozować problemy.
+* **3. Brak twardego limitu gmin i powiatów dla miasta (Decyzja celowa):** Celowo zrezygnowano z sztywnych ograniczeń liczebności przypisań, ponieważ wybrane duże miasta (np. aglomeracje) mogą obejmować kilka gmin lub specyficznych dzielnic o charakterze administracyjnym.
+
+### 9. 🎯 Cele i założenia modułu adresowego (Roadmapa modułu)
 
 Główne cele rozwojowe dla modułu adresowego obejmują:
 
@@ -269,7 +283,7 @@ Główne cele rozwojowe dla modułu adresowego obejmują:
 * **Moduł eksportu danych:** Dodanie mechanizmu eksportu danych słownikowych tak jak powyżej do formatu **JSON**
 * **Tłumaczenia:** Dodanie tlumaczeń.
 
-### 9. 🔮 Plany przyszłościowe (Roadmapa całego projektu TMS)
+### 10. 🔮 Plany przyszłościowe (Roadmapa całego projektu TMS)
 
 Rozwój docelowego systemu TMS wykracza poza sam moduł adresowy. Docelowy wygląd, skala oraz pełna architektura powiązań całego systemu znajdują się w starym diagramie ERD (dostępnym w katalogu [`old/`](./old/)). W kolejnych etapach projektowych planowane jest wdrożenie kluczowych komponentów logistycznych:
 
