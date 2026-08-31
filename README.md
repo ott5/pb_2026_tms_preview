@@ -72,7 +72,7 @@ The screenshots below show the key views of linking an address to an employee (e
 
 #### I. EmployeeAddress Table View
 * **Description:** A pivot table showing the link between an address and an employee. You can choose a predefined address type. The screenshot shows an empty table.
-* 🔗 **[View screenshot: img/employee_address_pivot_table.png](./img/employee_address_pivot_table.png)**
+* 🔗 **![View screenshot: img/employee_address_pivot_table.png](./img/employee_address_pivot_table.png)**
 
 #### II. Adding a Record
 * **IIa. Adding to a driver:** Selecting a driver from a dropdown list inside the address form. Driver data was generated using a factory.
@@ -221,7 +221,7 @@ Poniższe zrzuty ekranu przedstawiają kluczowe widoki powiązania adresu z prac
 
 #### I. Widok tabeli EmployeeAddress
 * **Opis:** Tabela łącznikowa prezentująca powiązanie adresu z pracownikiem Mamy możliwość wybrania predefiniowanego typu adresu. Screeenshot przedstawia pusta tabele.
-* 🔗 **[Zobacz screenshot: img/employee_address_pivot_table.png](./img/employee_address_pivot_table.png)**
+* 🔗 **![Zobacz screenshot: img/employee_address_pivot_table.png](./img/employee_address_pivot_table.png)**
 
 #### II. Dodawanie rekordu
 * **IIa. Dodawanie do kierowcy:** Wybór kierowcy z rozwijanej tablicy w formularzu adresu. Dane kierowców są wygenerowane za pomocą fabryki
