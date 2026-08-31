@@ -234,11 +234,11 @@ Poniższe zrzuty ekranu przedstawiają kluczowe widoki powiązania adresu z prac
 
 #### III. Wynik po dodaniu
 * **Opis:** Widok listy lub podglądu po pomyślnym zapisaniu rekordu w bazie danych, potwierdzający poprawne przypisanie adresu do kierowcy.
-* 🔗 **[Zobacz screenshot: img/employee_address_result.png](./img/employee_address_result.png)**
+* 🔗 **![Zobacz screenshot: img/employee_address_result.png](./img/employee_address_result.png)**
 
 #### IV. Pokaz filtra
 * **Opis:** Działanie zaawansowanych filtrów w tabeli Filament (np. filtrowanie adresów po typie adresu `AddressType` lub wybranym kraju, województwie itp.) Na screenie przykład tabeli po zastosowaniu filtra po mieście `Tuchola`. Stan przed w punkcie `III`.
-* 🔗 **[Zobacz screenshot: img/employee_address_filters.png](./img/employee_address_filters.png)**
+* 🔗 **![Zobacz screenshot: img/employee_address_filters.png](./img/employee_address_filters.png)**
 
 ### 7. 🔌 Wdrożenie i uruchomienie we własnym projekcie
 
