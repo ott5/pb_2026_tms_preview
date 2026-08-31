@@ -76,20 +76,20 @@ The screenshots below show the key views of linking an address to an employee (e
 
 #### II. Adding a Record
 * **IIa. Adding to a driver:** Selecting a driver from a dropdown list inside the address form. Driver data was generated using a factory.
-  * 🔗 **[View screenshot: img/employee_address_select_driver.png](./img/employee_address_select_driver.png)**
+  * 🔗 **![View screenshot: img/employee_address_select_driver.png](./img/employee_address_select_driver.png)**
 * **IIb. Adding address data:** Entering basic address details (street, building number, etc.).
-  * 🔗 **[View screenshot: img/employee_address_form_fields.png](./img/employee_address_form_fields.png)**
+  * 🔗 **![View screenshot: img/employee_address_form_fields.png](./img/employee_address_form_fields.png)**
 * **IIc. Showing field cascading in the form:** Presenting cascading field dependencies (e.g., selecting a country automatically filters available regions/provinces, cities, and postal codes). The screenshots below show this using the example of a region (Pomeranian / Kuyavian-Pomeranian).
-  * 🔗 **[View screenshot: img/employee_address_cascade1C.png](./img/employee_address_cascade1.png)**
-  * 🔗 **[View screenshot: img/employee_address_cascade2.png](./img/employee_address_cascade2.png)**
+  * 🔗 **![View screenshot: img/employee_address_cascade1C.png](./img/employee_address_cascade1.png)**
+  * 🔗 **![View screenshot: img/employee_address_cascade2.png](./img/employee_address_cascade2.png)**
 
 #### III. Result After Adding
 * **Description:** List or detail view after successfully saving the record in the database, confirming the correct assignment of the address to the driver.
-* 🔗 **[View screenshot: img/employee_address_result.png](./img/employee_address_result.png)**
+* 🔗 **![View screenshot: img/employee_address_result.png](./img/employee_address_result.png)**
 
 #### IV. Table Filter
 * **Description:** Using advanced filters in the Filament table (e.g., filtering addresses by `AddressType`, selected country, region, etc.). The screenshot shows an example of the table after filtering by the city "Tuchola". The state before is shown in point `III`.
-* 🔗 **[View screenshot: img/employee_address_filters.png](./img/employee_address_filters.png)**
+* 🔗 **![View screenshot: img/employee_address_filters.png](./img/employee_address_filters.png)**
 
 ### 7. 🔌 How to Run It in Your Own Project
 
@@ -225,12 +225,12 @@ Poniższe zrzuty ekranu przedstawiają kluczowe widoki powiązania adresu z prac
 
 #### II. Dodawanie rekordu
 * **IIa. Dodawanie do kierowcy:** Wybór kierowcy z rozwijanej tablicy w formularzu adresu. Dane kierowców są wygenerowane za pomocą fabryki
-  * 🔗 **[Zobacz screenshot: img/employee_address_select_driver.png](./img/employee_address_select_driver.png)**
+  * 🔗 **![Zobacz screenshot: img/employee_address_select_driver.png](./img/employee_address_select_driver.png)**
 * **IIb. Dodawanie adresu:** Wprowadzanie podstawowych danych adresowych (ulica, numer budynku itp.).
-  * 🔗 **[Zobacz screenshot: img/employee_address_form_fields.png](./img/employee_address_form_fields.png)**
+  * 🔗 **![Zobacz screenshot: img/employee_address_form_fields.png](./img/employee_address_form_fields.png)**
 * **IIc. Pokazanie kaskadowości w formularzu:** Prezentacja kaskadowego powiązania pól (np. wybór kraju automatycznie filtruje dostępne regiony/województwa oraz miasta i kody pocztowe) Poniższe screenshoty pokazują to na przykładzie województwa (pomorskie/kujawsko pomorskie).
-  * 🔗 **[Zobacz screenshot: img/employee_address_cascade1C.png](./img/employee_address_cascade1.png)**
-  * 🔗 **[Zobacz screenshot: img/employee_address_cascade2.png](./img/employee_address_cascade2.png)**
+  * 🔗 **![Zobacz screenshot: img/employee_address_cascade1C.png](./img/employee_address_cascade1.png)**
+  * 🔗 **![Zobacz screenshot: img/employee_address_cascade2.png](./img/employee_address_cascade2.png)**
 
 #### III. Wynik po dodaniu
 * **Opis:** Widok listy lub podglądu po pomyślnym zapisaniu rekordu w bazie danych, potwierdzający poprawne przypisanie adresu do kierowcy.
