@@ -149,8 +149,7 @@ The full TMS system goes beyond just the address module. You can check the targe
 
 ### License and Copyrights
 
-* **License:** This project is available under the **MIT License** – check the [`LICENSE`](./LICENSE) file for details.
-* **Copyrights:** All rights reserved. The demo project (`pb_2026_tms_preview`) was created for architecture, demonstration, and recruitment purposes.
+© 2026 Piotr Ott. Demonstration project (`pb_2026_tms_preview`) created for architectural, showcase, and recruitment purposes – the entire project is licensed under the MIT License (see the [`LICENSE`](./LICENSE) file).
 
 ---
 
@@ -297,6 +296,4 @@ Rozwój docelowego systemu TMS wykracza poza sam moduł adresowy. Docelowy wygl�
 * **Lekka aplikacja mobilna / webowa dla kierowców:** Dedykowany, uproszczony interfejs (PWA lub lekka aplikacja) dla kierowców w trasie, służący do szybkiego raportowania statusów zleceń, przesyłania dokumentów (np. potwierdzeń dostawy) oraz aktualizacji pozycji GPS.
 
 ### Licencja i prawa autorskie
-
-* **Licencja:** Ten projekt jest udostępniany na licencji **MIT** – szczegóły znajdziesz w pliku [`LICENSE`](./LICENSE).
-* **Prawa autorskie:** Wszelkie prawa zastrzeżone. Projekt demonstracyjny (`pb_2026_tms_preview`) został stworzony w celach architektonicznych, pokazowych oraz rekrutacyjnych.
+© 2026 Piotr Ott. Projekt demonstracyjny (`pb_2026_tms_preview`) stworzony w celach architektonicznych, pokazowych i rekrutacyjnych - całość jest na licencji MIT (zobacz plik [`LICENSE`](./LICENSE)).
